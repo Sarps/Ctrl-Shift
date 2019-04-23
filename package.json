@@ -1,0 +1,49 @@
+{
+  "name": "inputjs",
+  "version": "1.0.0",
+  "description": "Capture Keyboard, Mouse and Touchpad combos. Eg: ( Shift + Mousewheel ) , ( Alt + Shift + Mousemove ) , ( Ctrl + Shift + S ), etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarps/InputJS.git"
+  },
+  "keywords": [
+    "keyboard",
+    "mouse",
+    "combo",
+    "input",
+    "event",
+    "touch",
+    "mousewheel",
+    "mousemove",
+    "keyup",
+    "mouseover",
+    "mouseout",
+    "mouseenter",
+    "keydown",
+    "mouseleave",
+    "touchstart",
+    "dblclick",
+    "keypress",
+    "shortcut",
+    "listener",
+    "browser",
+    "electron",
+    "hybrid",
+    "cordova",
+    "phonegap"
+  ],
+  "author": "Emmanuel Oppong-Sarpong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sarps/InputJS/issues"
+  },
+  "homepage": "https://github.com/Sarps/InputJS#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
