@@ -1,11 +1,11 @@
 {
-  "name": "inputjs",
+  "name": "ctrl-shift",
   "version": "1.0.0",
   "description": "Capture Keyboard, Mouse and Touchpad combos. Eg: ( Shift + Mousewheel ) , ( Alt + Shift + Mousemove ) , ( Ctrl + Shift + S ), etc.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack && uglifyjs ./dist/inputjs.js -c -m -o ./dist/inputjs.min.js ",
+    "build": "webpack && uglifyjs ./dist/ctrl-shift.js -c -m -o ./dist/ctrl-shift.min.js ",
     "dev": "webpack --config webpack.config.js",
     "watch": "webpack --config webpack.config.js --watch"
   },

@@ -13,7 +13,7 @@ module.exports = {
     watch: process.argv.indexOf('--watch') !== -1,
 
     output: {
-        filename: 'inputjs.js',
+        filename: 'ctrl-shift.js',
         path: path.resolve(__dirname, 'dist'),
         library: 'InputJS',
         libraryTarget: 'var',
