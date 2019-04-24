@@ -1,6 +1,6 @@
 {
   "name": "ctrl-shift",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capture Keyboard, Mouse and Touchpad combos. Eg: ( Shift + Mousewheel ) , ( Alt + Shift + Mousemove ) , ( Ctrl + Shift + S ), etc.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sarps/InputJS.git"
+    "url": "git+https://github.com/Sarps/Ctrl-Shift.git"
   },
   "keywords": [
     "keyboard",
@@ -42,9 +42,9 @@
   "author": "Emmanuel Oppong-Sarpong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sarps/InputJS/issues"
+    "url": "https://github.com/Sarps/Ctrl-Shift/issues"
   },
-  "homepage": "https://github.com/Sarps/InputJS#readme",
+  "homepage": "https://github.com/Sarps/Ctrl-Shift#readme",
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
