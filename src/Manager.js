@@ -19,9 +19,14 @@ export class Manager {
         RIGHT: 2
     };
 
-    constructor(screen) {
-        this.mouse = new Mouse(screen)
-        this.keyboard = new Keyboard(screen)
+    /**
+     * 
+     * @param {HTMLElement} dom 
+     */
+    constructor(dom) {
+        dom = (dom instanceof HTMLElement) ? dom : document.querySelector(dom)
+        this.mouse = new Mouse(dom)
+        this.keyboard = new Keyboard(dom)
 
         this.listeners = {}
 

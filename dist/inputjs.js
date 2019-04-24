@@ -258,11 +258,16 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var Manager =
 /*#__PURE__*/
 function () {
-  function Manager(screen) {
+  /**
+   * 
+   * @param {HTMLElement} dom 
+   */
+  function Manager(dom) {
     _classCallCheck(this, Manager);
 
-    this.mouse = new _Mouse__WEBPACK_IMPORTED_MODULE_0__["Mouse"](screen);
-    this.keyboard = new _Keyboard__WEBPACK_IMPORTED_MODULE_1__["Keyboard"](screen);
+    dom = dom instanceof HTMLElement ? dom : document.querySelector(dom);
+    this.mouse = new _Mouse__WEBPACK_IMPORTED_MODULE_0__["Mouse"](dom);
+    this.keyboard = new _Keyboard__WEBPACK_IMPORTED_MODULE_1__["Keyboard"](dom);
     this.listeners = {};
     this.lockKeyboardEvents();
     this.lockMouseEvents();
